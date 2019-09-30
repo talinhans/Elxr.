@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat'; 
+}
+
+
+.op{
+  opacity: 1;
+}
+/* Navigation */
+.navs{
+  height: 20vh;
+  width: 5vw;
+  position: fixed;
+  margin-left: 95vw;
+  margin-top: 40vh;
+  z-index: 2000;
+  transition: 300ms;
+}
+.z{
+  cursor: pointer;
+  opacity: 0.4;
+  margin-top: 10px;
+  height: 10px;
+  background-color: #13171c;
+  width: 10px;
+  border-radius: 100%;
+  position: relative;
+
+}
+.ztext{
+  opacity: 0;
+  position: absolute;
+  transition: 500ms;
+  color: #13171c;
+}
+.z--ac{
+  opacity: 1;
+  margin-left: -3vw;
+}
+.z:hover{
+  opacity: 1;
+}
+
+/* Landing */
+.land{
+  padding-top: 10vh;
+
+}
+.land-t{
+  font-size: 20px;
+
+  padding-top: 10vh;
+}
+.land-h{
+  font-size: 60px;
+}
+.land-p{
+  opacity: 0.5;
+}
+.land-img{
+  height: 90vh;
+  width: 50%;
+  background-image: url('iphone3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+/* About */
+.ahead{
+  font-size: 40px;
+  padding-bottom: 10vh;
+}
+.fa{
+  font-size: 8vh;
+  color: #ed213a;
+}
+.ac-h{
+  padding-top: 3vh;
+  font-size: 30px;
+}
+.ac-p{
+  font-size: 16px;
+  opacity: 0.6;
+  padding-top: 3vh;
+}
+
+
+.head3{
+  font-size: 50px;
+  padding-top: 15vh;
+}
+.para3{
+  font-size: 30px;
+  padding-top: 5vh;
+}
+.p4{
+  padding-top: 0; 
+}
+.dimg{
+  height: 140vh;
+  width: 80vw;
+  background-image: url('2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25vw;
+  margin-top: -20vh;
+  
+}
+.fullimg{
+  height: 160vh;
+  width: 100vw;
+  background-image: url('3.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.dimg2{
+  margin-left: 0;
+  
+}
+@media screen and (max-width: 700px){
+  .land-img{
+    width: 100vw;
+  }
+}
